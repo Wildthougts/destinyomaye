@@ -71,13 +71,12 @@ export default function Home() {
         ]}
       >
         Promoting Queens Chess Foundation is an NGO that empowers women using
-        chess as a tool. My main task inluded{" "}
+        chess as a tool. My main task included{" "}
         <span className="font-semibold underline">Designing</span>,{" "}
         <span className="font-semibold underline">Developing</span> and{" "}
         <span className="font-semibold underline">Deploying</span>, the entire
         organization&apos;s website. I also integrated a Sanity-powered blog,
-        enabling easy content management and dynamic updates. I created a fast,
-        SEO-optimized website that enhances user experience and accessibility
+        enabling easy content management and dynamic updates.
         <div className="mt-4">
           <Link
             className="group flex items-center gap-2 underline"
@@ -145,9 +144,8 @@ export default function Home() {
         site features a clean, modern layout with an emphasis on usability and
         engagement. Built with a focus on{" "}
         <strong className="font-semibold underline">performance</strong> and{" "}
-        <strong className="font-semibold underline">Responsiveness</strong> , it
-        highlights key content while ensuring a seamless experience across
-        devices.
+        <strong className="font-semibold underline">Responsiveness</strong> in
+        mind
         <div className="mt-4">
           <Link
             className="group flex items-center gap-2 underline"
@@ -180,8 +178,24 @@ export default function Home() {
         role=" Design and Development"
         stack={[
           {
-            name: "WordPress",
-            link: "https://www.wordpress.org/",
+            name: "TypeScript",
+            link: "https://www.TypeScriptlang.org/",
+          },
+          {
+            name: "NextJS",
+            link: "https://nextjs.org/",
+          },
+          {
+            name: "React",
+            link: "https://react.dev/",
+          },
+          {
+            name: "TailwindCSS",
+            link: "https://tailwindcss.com/",
+          },
+          {
+            name: "Sanity CMS",
+            link: "https://planetscale.com/",
           },
 
           {
@@ -189,8 +203,8 @@ export default function Home() {
             link: "https://www.figma.com/",
           },
           {
-            name: "AdobeXD",
-            link: "https://helpx.adobe.com/au/support/xd.html",
+            name: "Google Analytics",
+            link: "https://analytics.google.com/",
           },
         ]}
       >
