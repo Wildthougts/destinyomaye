@@ -9,8 +9,7 @@ import Link from "next/link";
 import MainLayout from "~/components/layouts/main";
 import Navbar from "~/components/navbar";
 import ScreenshotPromotingQueens from "~/assets/PQportfolio.png";
-import ScreenshotDexioprotocol from "~/assets/screenshots/screenshot-dexioprotocol.png";
-import ScreenshotBctito from "~/assets/bctitoporfolio.png";
+import ScreenshotOats from "~/assets/oatsporfolio.png";
 import ScreenshotDarlington from "~/assets/dsporfolio.png";
 import ScrollingBanner from "~/components/scrollingBanner";
 import Selfy from "~/assets/me.png";
@@ -176,8 +175,8 @@ export default function Home() {
       </Experience>
       <Experience
         imageDirection="right"
-        imageSrc={ScreenshotBctito}
-        title="Bctito"
+        imageSrc={ScreenshotOats}
+        title="Oats"
         role=" Design and Development"
         stack={[
           {
@@ -195,17 +194,20 @@ export default function Home() {
           },
         ]}
       >
-        I designed and developed BCTito, an eCommerce website for a{" "}
+        I designed and developed a portfolio blog website for a FIDE chess
+        master, creating a dynamic digital space to showcase professional
+        achievements, tournament results, and in-depth chess analyses. Built
+        with modern web technologies, the website offers a{" "}
+        <span className="font-semibold underline">responsive</span>,{" "}
+        <span className="font-semibold underline">accessible</span>, and{" "}
         <span className="font-semibold underline">
-          US-based African cuisine vendors
-        </span>
-        . This platform was built with performance, responsiveness, and user
-        experience in mind, the website ensures smooth navigation, secure
-        transactions, and an engaging interface.
+          SEO-optimized experience
+        </span>{" "}
+        that highlights the chess master&apos;s journey and expertise.
         <div className="mt-4">
           <Link
             className="group flex items-center gap-2 underline"
-            href="http://ds-website-nine.vercel.app/"
+            href="https://www.abimbolaosunfuyi.com/"
             target="_blank"
           >
             View Live Site
