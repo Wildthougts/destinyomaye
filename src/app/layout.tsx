@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Destiny Omaye",
   description:
-    "G'day, I'm Destiny, a Full-Stack Web Developer from Nigeria. This is my personal website. ",
+    "G'day, I'm Destiny, a Full-Stack Web Developer. This is my personal website. ",
 };
 
 export default function RootLayout({
